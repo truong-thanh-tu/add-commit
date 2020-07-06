@@ -46,9 +46,8 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="index.html">trang chủ</a>
                                 </li>
-
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_product" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <a class="nav-link" href="category.html" id="navbarDropdown_product" role="button" aria-haspopup="true" aria-expanded="false">
                                         sản phẩm
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown_product">
@@ -58,9 +57,8 @@
                                         <a class="dropdown-item" href="category.html">phụ kiện</a>
                                     </div>
                                 </li>
-
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_course"
+                                    <a class="nav-link" href="blog.html" id="navbarDropdown_course"
                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Khoá Học
                                     </a>
@@ -74,7 +72,7 @@
                                 </li>
 
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_service"
+                                    <a class="nav-link" href="blog.html" id="navbarDropdown_service"
                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         dịch vụ
                                     </a>
@@ -87,7 +85,7 @@
                                 </li>
 
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="contact.html" id="navbarDropdown_news"
+                                    <a class="nav-link" href="contact.html" id="navbarDropdown_news"
                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Bài viết
                                     </a>
@@ -98,7 +96,7 @@
                                 </li>
 
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="contact.html" id="navbarDropdown_contact"
+                                    <a class="nav-link" href="contact.html" id="navbarDropdown_contact"
                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Liên hệ
                                     </a>
@@ -112,14 +110,15 @@
                             </ul>
                         </div>
 
-                        <div class="d-flex dropdown">
-                            <a class="dropdown-toggle" href="" id="navbarDropdown_user" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <div class="d-flex dropdown icon_user">
+                            <a href="" id="navbarDropdown_user" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i class="far fa-user"></i>
                             </a>
+                            <div class="dropdown-toggle"></div>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown_user">
                                 <div class="single_product">
                                     <a class="dropdown-item" href="login.html">Đăng nhập</a>
-                                    <a class="dropdown-item" href="">Đăng ký</a>
+                                    <a class="dropdown-item" href="register.html">Đăng ký</a>
                                 </div>
                             </div>
                         </div>
@@ -151,7 +150,7 @@
         <div class="col-lg-12">
           <div class="breadcrumb_iner">
             <div class="breadcrumb_iner_item">
-              <p>Home / checkout</p>
+              <p>Trang chủ / thanh toán</p>
             </div>
           </div>
         </div>
@@ -166,139 +165,139 @@
       <div class="returning_customer">
         <div class="check_title">
           <h2>
-            Returning Customer?
-            <a href="#">Click here to login</a>
+            Phản hồi khách hàng?
+            <a href="#">Nhấn vào đây để đăng nhập</a>
           </h2>
         </div>
         <p>
-          If you have shopped with us before, please enter your details in the
-          boxes below. If you are a new customer, please proceed to the
-          Billing & Shipping section.
+          Nếu bạn đã mua sắm với chúng tôi trước đây, vui lòng nhập thông tin của bạn vào
+          hộp bên dưới. Nếu bạn là khách hàng mới, vui lòng tiếp tục
+          Phần thanh toán & vận chuyển.
         </p>
         <form class="row contact_form" action="#" method="post" novalidate="novalidate">
           <div class="col-md-6 form-group p_star">
             <input type="text" class="form-control" id="name" name="name" value=" " />
-            <span class="placeholder" data-placeholder="Username or Email"></span>
+            <span class="placeholder" data-placeholder="Tên người dùng hoặc email"></span>
           </div>
           <div class="col-md-6 form-group p_star">
             <input type="password" class="form-control" id="password" name="password" value="" />
-            <span class="placeholder" data-placeholder="Password"></span>
+            <span class="placeholder" data-placeholder="Mật khẩu"></span>
           </div>
           <div class="col-md-12 form-group">
             <button type="submit" value="submit" class="btn_3">
-              log in
+              đăng nhập
             </button>
             <div class="creat_account">
               <input type="checkbox" id="f-option" name="selector" />
-              <label for="f-option">Remember me</label>
+              <label for="f-option">Nhớ mật khẩu</label>
             </div>
-            <a class="lost_pass" href="#">Lost your password?</a>
+            <a class="lost_pass" href="#">Quên mật khẩu?</a>
           </div>
         </form>
       </div>
       <div class="cupon_area">
         <div class="check_title">
           <h2>
-            Have a coupon?
-            <a href="#">Click here to enter your code</a>
+            Có phiếu giảm giá?
+            <a href="#">Nhấn vào đây để nhập mã của bạn</a>
           </h2>
         </div>
-        <input type="text" placeholder="Enter coupon code" />
-        <a class="tp_btn" href="#">Apply Coupon</a>
+        <input type="text" placeholder="Nhập mã phiếu giảm giá" />
+        <a class="tp_btn" href="#">Áp dụng phiếu giảm giá</a>
       </div>
       <div class="billing_details">
         <div class="row">
           <div class="col-lg-8">
-            <h3>Billing Details</h3>
+            <h3>Chi tiết thanh toán</h3>
             <form class="row contact_form" action="#" method="post" novalidate="novalidate">
               <div class="col-md-6 form-group p_star">
                 <input type="text" class="form-control" id="first" name="name" />
-                <span class="placeholder" data-placeholder="First name"></span>
+                <span class="placeholder" data-placeholder="Tên"></span>
               </div>
               <div class="col-md-6 form-group p_star">
                 <input type="text" class="form-control" id="last" name="name" />
-                <span class="placeholder" data-placeholder="Last name"></span>
+                <span class="placeholder" data-placeholder="Họ"></span>
               </div>
               <div class="col-md-12 form-group">
-                <input type="text" class="form-control" id="company" name="company" placeholder="Company name" />
+                <input type="text" class="form-control" id="company" name="company" placeholder="Tên công ty" />
               </div>
               <div class="col-md-6 form-group p_star">
                 <input type="text" class="form-control" id="number" name="number" />
-                <span class="placeholder" data-placeholder="Phone number"></span>
+                <span class="placeholder" data-placeholder="Số điện thoại"></span>
               </div>
               <div class="col-md-6 form-group p_star">
                 <input type="text" class="form-control" id="email" name="compemailany" />
-                <span class="placeholder" data-placeholder="Email Address"></span>
+                <span class="placeholder" data-placeholder="Địa chỉ email"></span>
               </div>
               <div class="col-md-12 form-group p_star">
                 <select class="country_select">
-                  <option value="1">Country</option>
-                  <option value="2">Country</option>
-                  <option value="4">Country</option>
+                  <option value="1">Việt Nam</option>
+                  <option value="2">Nhật Bản</option>
+                  <option value="4">Ấn Độ</option>
                 </select>
               </div>
               <div class="col-md-12 form-group p_star">
                 <input type="text" class="form-control" id="add1" name="add1" />
-                <span class="placeholder" data-placeholder="Address line 01"></span>
+                <span class="placeholder" data-placeholder="Địa chỉ 1"></span>
               </div>
               <div class="col-md-12 form-group p_star">
                 <input type="text" class="form-control" id="add2" name="add2" />
-                <span class="placeholder" data-placeholder="Address line 02"></span>
+                <span class="placeholder" data-placeholder="Địa chỉ 2"></span>
               </div>
               <div class="col-md-12 form-group p_star">
                 <input type="text" class="form-control" id="city" name="city" />
-                <span class="placeholder" data-placeholder="Town/City"></span>
+                <span class="placeholder" data-placeholder="Thị trấn / thành phố"></span>
               </div>
               <div class="col-md-12 form-group p_star">
                 <select class="country_select">
-                  <option value="1">District</option>
-                  <option value="2">District</option>
-                  <option value="4">District</option>
+                  <option value="1">Hà Nội</option>
+                  <option value="2">Hồ Chí Minh</option>
+                  <option value="4">Vinh</option>
                 </select>
               </div>
               <div class="col-md-12 form-group">
-                <input type="text" class="form-control" id="zip" name="zip" placeholder="Postcode/ZIP" />
+                <input type="text" class="form-control" id="zip" name="zip" placeholder="Mã bưu / Zip" />
               </div>
               <div class="col-md-12 form-group">
                 <div class="creat_account">
                   <input type="checkbox" id="f-option2" name="selector" />
-                  <label for="f-option2">Create an account?</label>
+                  <label for="f-option2">Tạo một tài khoản?</label>
                 </div>
               </div>
               <div class="col-md-12 form-group">
                 <div class="creat_account">
-                  <h3>Shipping Details</h3>
+                  <h3>Chi tiết vận chuyển</h3>
                   <input type="checkbox" id="f-option3" name="selector" />
-                  <label for="f-option3">Ship to a different address?</label>
+                  <label for="f-option3">Gửi hàng đến một địa chỉ khác?</label>
                 </div>
                 <textarea class="form-control" name="message" id="message" rows="1"
-                  placeholder="Order Notes"></textarea>
+                  placeholder="Ghi chú đặt hàng"></textarea>
               </div>
             </form>
           </div>
           <div class="col-lg-4">
             <div class="order_box">
-              <h2>Your Order</h2>
+              <h2>Đơn hàng của bạn</h2>
               <ul class="list">
                 <li>
-                  <a href="#">Product
-                    <span>Total</span>
+                  <a href="#">Sản phẩm
+                    <span>Toàn bộ</span>
                   </a>
                 </li>
                 <li>
-                  <a href="#">Fresh Blackberry
+                  <a href="#">Đàn Guitar Acoutic C630
                     <span class="middle">x 02</span>
                     <span class="last">$720.00</span>
                   </a>
                 </li>
                 <li>
-                  <a href="#">Fresh Tomatoes
+                  <a href="#">Capo Guitar C30
                     <span class="middle">x 02</span>
                     <span class="last">$720.00</span>
                   </a>
                 </li>
                 <li>
-                  <a href="#">Fresh Brocoli
+                  <a href="#">Trống Cajon Z90
                     <span class="middle">x 02</span>
                     <span class="last">$720.00</span>
                   </a>
@@ -306,17 +305,17 @@
               </ul>
               <ul class="list list_2">
                 <li>
-                  <a href="#">Subtotal
+                  <a href="#">Tổng phụ
                     <span>$2160.00</span>
                   </a>
                 </li>
                 <li>
-                  <a href="#">Shipping
-                    <span>Flat rate: $50.00</span>
+                  <a href="#">Vận chuyển
+                    <span>Siêu tốc: $50.00</span>
                   </a>
                 </li>
                 <li>
-                  <a href="#">Total
+                  <a href="#">Tổng
                     <span>$2210.00</span>
                   </a>
                 </li>
@@ -324,32 +323,32 @@
               <div class="payment_item">
                 <div class="radion_btn">
                   <input type="radio" id="f-option5" name="selector" />
-                  <label for="f-option5">Check payments</label>
+                  <label for="f-option5">Kiểm tra thanh toán</label>
                   <div class="check"></div>
                 </div>
                 <p>
-                  Please send a check to Store Name, Store Street, Store Town,
-                  Store State / County, Store Postcode.
+                  Vui lòng gửi séc đến Tên Cửa hàng, Phố Cửa hàng, Thị trấn Cửa hàng,
+                  Lưu trữ Bang / Quận, Lưu mã bưu điện.
                 </p>
               </div>
               <div class="payment_item active">
                 <div class="radion_btn">
                   <input type="radio" id="f-option6" name="selector" />
-                  <label for="f-option6">Paypal </label>
+                  <label for="f-option6">Paypal</label>
                   <img src="img/product/single-product/card.jpg" alt="" />
                   <div class="check"></div>
                 </div>
                 <p>
-                  Please send a check to Store Name, Store Street, Store Town,
-                  Store State / County, Store Postcode.
+                  Vui lòng gửi séc đến Tên Cửa hàng, Phố Cửa hàng, Thị trấn Cửa hàng,
+                  Lưu trữ Bang / Quận, Lưu mã bưu điện.
                 </p>
               </div>
               <div class="creat_account">
                 <input type="checkbox" id="f-option4" name="selector" />
-                <label for="f-option4">I’ve read and accept the </label>
-                <a href="#">terms & conditions*</a>
+                <label for="f-option4">Tôi đã đọc và chấp nhận </label>
+                <a href="#">Điều khoản và điều kiện*</a>
               </div>
-              <a class="btn_3" href="#">Proceed to Paypal</a>
+              <a class="btn_3" href="#">Tiếp tục với Paypal</a>
             </div>
           </div>
         </div>
@@ -357,39 +356,6 @@
     </div>
   </section>
   <!--================End Checkout Area =================-->
-
-    <!-- subscribe_area part start-->
-    <section class="instagram_photo">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="instagram_photo_iner">
-                        <div class="single_instgram_photo">
-                            <img src="img/instagram/team-KimThi.jpg" alt="">
-                            <a href="#"><i class="ti-instagram"></i></a>
-                        </div>
-                        <div class="single_instgram_photo">
-                            <img src="img/instagram/team-DinhHieu.jpg" alt="">
-                            <a href="#"><i class="ti-instagram"></i></a>
-                        </div>
-                        <div class="single_instgram_photo">
-                            <img src="img/instagram/team-NguyenThao.jpg" alt="">
-                            <a href="#"><i class="ti-instagram"></i></a>
-                        </div>
-                        <div class="single_instgram_photo">
-                            <img src="img/instagram/team-DoanLuong.jpg" alt="">
-                            <a href="#"><i class="ti-instagram"></i></a>
-                        </div>
-                        <div class="single_instgram_photo">
-                            <img src="img/instagram/team-ThanhTu.jpg" alt="">
-                            <a href="#"><i class="ti-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--::subscribe_area part end::-->
 
     <!--::footer_part start::-->
     <footer class="footer_part">

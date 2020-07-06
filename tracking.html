@@ -45,9 +45,8 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="index.html">trang chủ</a>
                                 </li>
-
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_product" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <a class="nav-link" href="category.html" id="navbarDropdown_product" role="button" aria-haspopup="true" aria-expanded="false">
                                         sản phẩm
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown_product">
@@ -57,9 +56,8 @@
                                         <a class="dropdown-item" href="category.html">phụ kiện</a>
                                     </div>
                                 </li>
-
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_course"
+                                    <a class="nav-link" href="blog.html" id="navbarDropdown_course"
                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Khoá Học
                                     </a>
@@ -73,7 +71,7 @@
                                 </li>
 
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_service"
+                                    <a class="nav-link" href="blog.html" id="navbarDropdown_service"
                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         dịch vụ
                                     </a>
@@ -86,7 +84,7 @@
                                 </li>
 
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="contact.html" id="navbarDropdown_news"
+                                    <a class="nav-link" href="contact.html" id="navbarDropdown_news"
                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Bài viết
                                     </a>
@@ -97,7 +95,7 @@
                                 </li>
 
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="contact.html" id="navbarDropdown_contact"
+                                    <a class="nav-link" href="contact.html" id="navbarDropdown_contact"
                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Liên hệ
                                     </a>
@@ -111,14 +109,15 @@
                             </ul>
                         </div>
 
-                        <div class="d-flex dropdown">
-                            <a class="dropdown-toggle" href="" id="navbarDropdown_user" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <div class="d-flex dropdown icon_user">
+                            <a href="" id="navbarDropdown_user" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i class="far fa-user"></i>
                             </a>
+                            <div class="dropdown-toggle"></div>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown_user">
                                 <div class="single_product">
                                     <a class="dropdown-item" href="login.html">Đăng nhập</a>
-                                    <a class="dropdown-item" href="">Đăng ký</a>
+                                    <a class="dropdown-item" href="register.html">Đăng ký</a>
                                 </div>
                             </div>
                         </div>
@@ -150,7 +149,7 @@
               <div class="col-lg-12">
                   <div class="breadcrumb_iner">
                       <div class="breadcrumb_iner_item">
-                          <p>Home / tracking</p>
+                          <p>Trang chủ / Theo dõi đơn hàng</p>
                       </div>
                   </div>
               </div>
@@ -165,18 +164,17 @@
       <div class="row align-items-center justify-content-center">
         <div class="col-lg-12">
           <div class="tracking_box_inner">
-            <p>To track your order please enter your Order ID in the box below and press the "Track" button. This was
-              given
-              to you on your receipt and in the confirmation email you should have received.</p>
+            <p>Để theo dõi đơn hàng của bạn, vui lòng nhập ID đơn hàng của bạn vào ô bên dưới và nhấn nút "Theo dõi". Đây là
+                được cho bạn trên biên nhận của bạn và trong email xác nhận bạn nên nhận được.</p>
             <form class="row tracking_form" action="#" method="post" novalidate="novalidate">
               <div class="col-md-12 form-group">
-                <input type="text" class="form-control" id="order" name="order" placeholder="Order ID">
+                <input type="text" class="form-control" id="order" name="order" placeholder="Mã đơn hàng">
               </div>
               <div class="col-md-12 form-group">
-                <input type="email" class="form-control" id="email" name="email" placeholder="Billing Email Address">
+                <input type="email" class="form-control" id="email" name="email" placeholder="Địa chỉ email thanh toán">
               </div>
               <div class="col-md-12 form-group">
-                <button type="submit" value="submit" class="btn_3">Track Order</button>
+                <button type="submit" value="submit" class="btn_3">Kiểm tra đơn hàng</button>
               </div>
             </form>
           </div>
@@ -187,39 +185,6 @@
     </div>
   </section>
   <!--================End Tracking Box Area =================-->
-
-  <!-- subscribe_area part start-->
-  <section class="instagram_photo">
-      <div class="container-fluid">
-          <div class="row">
-              <div class="col-lg-12">
-                  <div class="instagram_photo_iner">
-                      <div class="single_instgram_photo">
-                          <img src="img/instagram/team-KimThi.jpg" alt="">
-                          <a href="#"><i class="ti-instagram"></i></a>
-                      </div>
-                      <div class="single_instgram_photo">
-                          <img src="img/instagram/team-DinhHieu.jpg" alt="">
-                          <a href="#"><i class="ti-instagram"></i></a>
-                      </div>
-                      <div class="single_instgram_photo">
-                          <img src="img/instagram/team-NguyenThao.jpg" alt="">
-                          <a href="#"><i class="ti-instagram"></i></a>
-                      </div>
-                      <div class="single_instgram_photo">
-                          <img src="img/instagram/team-DoanLuong.jpg" alt="">
-                          <a href="#"><i class="ti-instagram"></i></a>
-                      </div>
-                      <div class="single_instgram_photo">
-                          <img src="img/instagram/team-ThanhTu.jpg" alt="">
-                          <a href="#"><i class="ti-instagram"></i></a>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </section>
-  <!--::subscribe_area part end::-->
 
   <!--::footer_part start::-->
   <footer class="footer_part">

@@ -6,7 +6,7 @@
     }
     h2{
        font-size: 50px;
-       font-weight: 700; 
+       font-weight: 700;
        text-transform: capitalize;
        @media #{$tab}{
            font-size: 30px;
@@ -16,7 +16,7 @@
         font-size: 16px;
         color: $black_color;
         text-transform: capitalize;
-        font-family: $font_stack_2; 
+        font-family: $font_stack_2;
         margin-left: 35px;
         display: inline-block;
         cursor: pointer;
@@ -120,7 +120,11 @@
                 i{
                     color: #ffe400 !important;
                 }
-               
+            }
+            .rate_icon_no{
+                i{
+                    color: #ffffff !important;
+                }
             }
             h5{
                 font-size: 24px;
