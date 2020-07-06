@@ -263,25 +263,11 @@
 	.main_menu {
 		padding: 20px 0px;
 	}
-	.icon_user {
-		right: -43%;
-	}
 }
 
 @media #{$large_mobile} {
 	.main_menu {
 		padding: 20px 0px;
-	}
-	.icon_user {
-		right: -43%;
-	}
-}
-@media #{$tab_device} {
-	.main_menu {
-		padding: 20px 0px;
-	}
-	.icon_user {
-		right: -43%;
 	}
 }
 

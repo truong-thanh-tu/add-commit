@@ -1,0 +1,11 @@
+.evoid .row{
+    margin-bottom: 60px;
+    margin-top: 30px;
+
+}
+.row .card {
+    height: 150px;
+    background-color: #f5f4f4;
+    border: none;
+    box-shadow: 2px 3px #cccccc;
+}

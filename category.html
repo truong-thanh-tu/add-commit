@@ -45,8 +45,9 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="index.html">trang chủ</a>
                                 </li>
+
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link" href="category.html" id="navbarDropdown_product" role="button" aria-haspopup="true" aria-expanded="false">
+                                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_product" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         sản phẩm
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown_product">
@@ -56,8 +57,9 @@
                                         <a class="dropdown-item" href="category.html">phụ kiện</a>
                                     </div>
                                 </li>
+
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link" href="blog.html" id="navbarDropdown_course"
+                                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_course"
                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Khoá Học
                                     </a>
@@ -71,7 +73,7 @@
                                 </li>
 
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link" href="blog.html" id="navbarDropdown_service"
+                                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_service"
                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         dịch vụ
                                     </a>
@@ -84,7 +86,7 @@
                                 </li>
 
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link" href="contact.html" id="navbarDropdown_news"
+                                    <a class="nav-link dropdown-toggle" href="contact.html" id="navbarDropdown_news"
                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Bài viết
                                     </a>
@@ -95,7 +97,7 @@
                                 </li>
 
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link" href="contact.html" id="navbarDropdown_contact"
+                                    <a class="nav-link dropdown-toggle" href="contact.html" id="navbarDropdown_contact"
                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Liên hệ
                                     </a>
@@ -108,16 +110,21 @@
 
                             </ul>
                         </div>
-
-                        <div class="d-flex dropdown icon_user">
-                            <a href="" id="navbarDropdown_user" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <div class="hearer_icon d-flex">
+                            <a id="cart" href="cart.html" >
+                                <i class="ti-shopping-cart"></i>
+                                <span id="numberItem">0</span>
+                            </a>
+                        </div>
+                        <div class="d-flex dropdown">
+                            <a class="dropdown-toggle" href="" id="navbarDropdown_user" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i class="far fa-user"></i>
                             </a>
-                            <div class="dropdown-toggle"></div>
+
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown_user">
                                 <div class="single_product">
                                     <a class="dropdown-item" href="login.html">Đăng nhập</a>
-                                    <a class="dropdown-item" href="register.html">Đăng ký</a>
+                                    <a class="dropdown-item" href="">Đăng ký</a>
                                 </div>
                             </div>
                         </div>
@@ -150,7 +157,7 @@
                 <div class="col-lg-12">
                     <div class="breadcrumb_iner">
                         <div class="breadcrumb_iner_item">
-                            <p>Trang chủ / Danh mục sản phẩm</p>
+                            <p>Home / Category</p>
                         </div>
                     </div>
                 </div>
@@ -167,47 +174,47 @@
                     <div class="left_sidebar_area">
                         <aside class="left_widgets p_filter_widgets sidebar_box_shadow">
                             <div class="l_w_title">
-                                <h3>Duyệt qua danh mục</h3>
+                                <h3>Browse Categories</h3>
                             </div>
                             <div class="widgets_inner">
                                 <ul class="list">
                                     <li>
-                                        <a href="#">Đàn guitar</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Ukulele</a>
+                                        <a href="#">Fruits and Vegetables</a>
                                     </li>
                                     <li class="sub-menu">
                                         <a href="#Electronics" class=" d-flex justify-content-between">
-                                            Phụ kiện
+                                            Electronics
                                             <div class="right ti-plus"></div>
                                         </a>
                                         <ul>
                                             <li>
-                                                <a href="#Electronics">Capo</a>
+                                                <a href="#Electronics">Home Appliances</a>
                                             </li>
                                             <li>
-                                                <a href="#Electronics">Dây đàn</a>
+                                                <a href="#Electronics">Smartphones</a>
                                             </li>
                                             <li>
-                                                <a href="#Electronics">Tuner (Máy chỉnh âm)</a>
+                                                <a href="#Electronics">Kitchen Appliances</a>
                                             </li>
                                             <li>
-                                                <a href="#Electronics">EQ (Thiết bị ra loa)</a>
+                                                <a href="#Electronics">Computer Accessories</a>
                                             </li>
                                             <li>
-                                                <a href="#Electronics">Dây đeo đàn guitar</a>
+                                                <a href="#Electronics">Meat Alternatives</a>
                                             </li>
                                             <li>
-                                                <a href="#Electronics">Bao đàn guitar</a>
+                                                <a href="#Electronics">Appliances</a>
                                             </li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="#">Trống</a>
+                                        <a href="#">Cooking</a>
                                     </li>
                                     <li>
-                                        <a href="#">Thiết bị âm thanh</a>
+                                        <a href="#">Beverages</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Home and Cleaning</a>
                                     </li>
                                 </ul>
                             </div>
@@ -215,30 +222,30 @@
 
                         <aside class="left_widgets p_filter_widgets sidebar_box_shadow">
                             <div class="l_w_title">
-                                <h3>Bộ lọc sản phẩm</h3>
+                                <h3>Product filters</h3>
                             </div>
                             <div class="widgets_inner">
                                 <ul class="list">
-                                    <p>Nhãn hiệu</p>
+                                    <p>Brands</p>
                                     <li>
                                         <input type="radio" aria-label="Radio button for following text input">
-                                        <a href="#">Taylor</a>
+                                        <a href="#">Apple</a>
                                     </li>
                                     <li>
                                         <input type="radio" aria-label="Radio button for following text input">
-                                        <a href="#">ayers</a>
+                                        <a href="#">Asus</a>
                                     </li>
                                     <li class="active">
                                         <input type="radio" aria-label="Radio button for following text input">
-                                        <a href="#">Rosen</a>
+                                        <a href="#">Gionee</a>
                                     </li>
                                     <li>
                                         <input type="radio" aria-label="Radio button for following text input">
-                                        <a href="#">yamaha</a>
+                                        <a href="#">Micromax</a>
                                     </li>
                                     <li>
                                         <input type="radio" aria-label="Radio button for following text input">
-                                        <a href="#">morris</a>
+                                        <a href="#">Samsung</a>
                                     </li>
                                 </ul>
 
@@ -247,7 +254,7 @@
 
                         <aside class="left_widgets p_filter_widgets price_rangs_aside sidebar_box_shadow">
                             <div class="l_w_title">
-                                <h3>Bộ lọc giá</h3>
+                                <h3>Price Filter</h3>
                             </div>
                             <div class="widgets_inner">
                                 <div class="range_item">
@@ -255,11 +262,11 @@
                                     <input type="text" class="js-range-slider" value="" />
                                     <div class="d-flex align-items-center">
                                         <div class="price_text">
-                                            <p>Giá :</p>
+                                            <p>Price :</p>
                                         </div>
                                         <div class="price_value d-flex justify-content-center">
                                             <input type="text" class="js-input-from" id="amount-from" readonly />
-                                            <span>đến</span>
+                                            <span>to</span>
                                             <input type="text" class="js-input-to" id="amount-to" readonly />
                                         </div>
                                     </div>
@@ -273,15 +280,15 @@
                         <div class="col-lg-12">
                             <div class="product_top_bar d-flex justify-content-between align-items-center">
                                 <div class="single_product_menu product_bar_item">
-                                    <h2>Danh sách sản phẩm (12)</h2>
+                                    <h2>List Product (12)</h2>
                                 </div>
                                 <div class="product_top_bar_iner product_bar_item d-flex">
                                     <div class="product_bar_single">
                                         <select class="wide">
-                                            <option data-display="Sắp xếp: Mới nhất">Mới nhất</option>
-                                            <option value="1">Giá</option>
-                                            <option value="2">Tên sản phẩm</option>
-                                            <option value="3">Thương hiệu</option>
+                                            <option data-display="Default sorting">Default sorting</option>
+                                            <option value="1">Some option</option>
+                                            <option value="2">Another option</option>
+                                            <option value="3">Potato</option>
                                         </select>
                                     </div>
                                 </div>
@@ -290,18 +297,18 @@
                         <div class="col-lg-4 col-sm-6">
                             <div class="single_category_product">
                                 <div class="single_category_img">
-                                    <a href="single-product.html">
-                                        <img src="img/category/category_1.png" alt="">
-                                    </a>
+                                    <img src="img/category/category_1.png" alt="">
                                     <div class="category_social_icon">
                                         <ul>
                                             <li><a href="#"><i class="ti-heart"></i></a></li>
-                                            <li><a href="#"><i class="ti-bag"></i></a></li>
+                                            <li>
+                                                <a href="" class="btn btn-default btn-rounded shopping-cart_icon" data-toggle="modal" data-target="#centralModalSuccess"><i class="ti-shopping-cart"></i></a>
+                                            </li>
                                         </ul>
                                     </div>
                                     <div class="category_product_text">
-                                        <a href="single-product.html"><h5>Trống Cajon T150</h5></a>
-                                        <p>1.500.000 đ</p>
+                                        <a href="single-product.html"><h5>Long Sleeve TShirt</h5></a>
+                                        <p>$150.00</p>
                                     </div>
                                 </div>
                             </div>
@@ -309,18 +316,18 @@
                         <div class="col-lg-4 col-sm-6">
                             <div class="single_category_product">
                                 <div class="single_category_img">
-                                    <a href="single-product.html">
-                                        <img src="img/category/category_2.png" alt="">
-                                    </a>
+                                    <img src="img/category/category_2.png" alt="">
                                     <div class="category_social_icon">
                                         <ul>
                                             <li><a href="#"><i class="ti-heart"></i></a></li>
-                                            <li><a href="#"><i class="ti-bag"></i></a></li>
+                                            <li>
+                                                <a href="" class="btn btn-default btn-rounded shopping-cart_icon" data-toggle="modal" data-target="#centralModalSuccess"><i class="ti-shopping-cart"></i></a>
+                                            </li>
                                         </ul>
                                     </div>
                                     <div class="category_product_text">
-                                        <a href="single-product.html"><h5>Capo Guitar C20</h5></a>
-                                        <p>80.000 đ</p>
+                                        <a href="single-product.html"><h5>Long Sleeve TShirt</h5></a>
+                                        <p>$150.00</p>
                                     </div>
                                 </div>
                             </div>
@@ -328,18 +335,18 @@
                         <div class="col-lg-4 col-sm-6">
                             <div class="single_category_product">
                                 <div class="single_category_img">
-                                    <a href="single-product.html">
-                                        <img src="img/category/category_3.png" alt="">
-                                    </a>
+                                    <img src="img/category/category_3.png" alt="">
                                     <div class="category_social_icon">
                                         <ul>
                                             <li><a href="#"><i class="ti-heart"></i></a></li>
-                                            <li><a href="#"><i class="ti-bag"></i></a></li>
+                                            <li>
+                                                <a href="" class="btn btn-default btn-rounded shopping-cart_icon" data-toggle="modal" data-target="#centralModalSuccess"><i class="ti-shopping-cart"></i></a>
+                                            </li>
                                         </ul>
                                     </div>
                                     <div class="category_product_text">
-                                        <a href="single-product.html"><h5>Dây đàn điện D55</h5></a>
-                                        <p>250.000 đ</p>
+                                        <a href="single-product.html"><h5>Long Sleeve TShirt</h5></a>
+                                        <p>$150.00</p>
                                     </div>
                                 </div>
                             </div>
@@ -347,18 +354,18 @@
                         <div class="col-lg-4 col-sm-6">
                             <div class="single_category_product">
                                 <div class="single_category_img">
-                                    <a href="single-product.html">
-                                        <img src="img/category/category_4.png" alt="">
-                                    </a>
+                                    <img src="img/category/category_4.png" alt="">
                                     <div class="category_social_icon">
                                         <ul>
                                             <li><a href="#"><i class="ti-heart"></i></a></li>
-                                            <li><a href="#"><i class="ti-bag"></i></a></li>
+                                            <li>
+                                                <a href="" class="btn btn-default btn-rounded shopping-cart_icon" data-toggle="modal" data-target="#centralModalSuccess"><i class="ti-shopping-cart"></i></a>
+                                            </li>
                                         </ul>
                                     </div>
                                     <div class="category_product_text">
-                                        <a href="single-product.html"><h5>Đàn guitar Acosstic Yamaha C30</h5></a>
-                                        <p>15.990.000 đ</p>
+                                        <a href="single-product.html"><h5>Long Sleeve TShirt</h5></a>
+                                        <p>$150.00</p>
                                     </div>
                                 </div>
                             </div>
@@ -366,18 +373,18 @@
                         <div class="col-lg-4 col-sm-6">
                             <div class="single_category_product">
                                 <div class="single_category_img">
-                                    <a href="single-product.html">
-                                        <img src="img/category/category_5.png" alt="">
-                                    </a>
+                                    <img src="img/category/category_5.png" alt="">
                                     <div class="category_social_icon">
                                         <ul>
                                             <li><a href="#"><i class="ti-heart"></i></a></li>
-                                            <li><a href="#"><i class="ti-bag"></i></a></li>
+                                            <li>
+                                                <a href="" class="btn btn-default btn-rounded shopping-cart_icon" data-toggle="modal" data-target="#centralModalSuccess"><i class="ti-shopping-cart"></i></a>
+                                            </li>
                                         </ul>
                                     </div>
                                     <div class="category_product_text">
-                                        <a href="single-product.html"><h5>Đàn Guitar Điện GD563</h5></a>
-                                        <p>32.999.000 đ</p>
+                                        <a href="single-product.html"><h5>Long Sleeve TShirt</h5></a>
+                                        <p>$150.00</p>
                                     </div>
                                 </div>
                             </div>
@@ -385,18 +392,18 @@
                         <div class="col-lg-4 col-sm-6">
                             <div class="single_category_product">
                                 <div class="single_category_img">
-                                    <a href="single-product.html">
-                                        <img src="img/category/category_6.png" alt="">
-                                    </a>
+                                    <img src="img/category/category_6.png" alt="">
                                     <div class="category_social_icon">
                                         <ul>
                                             <li><a href="#"><i class="ti-heart"></i></a></li>
-                                            <li><a href="#"><i class="ti-bag"></i></a></li>
+                                            <li>
+                                                <a href="" class="btn btn-default btn-rounded shopping-cart_icon" data-toggle="modal" data-target="#centralModalSuccess"><i class="ti-shopping-cart"></i></a>
+                                            </li>
                                         </ul>
                                     </div>
                                     <div class="category_product_text">
-                                        <a href="single-product.html"><a href="single-product.html"><h5>Dây line 5M L32</h5></a></a>
-                                        <p>320.000 đ</p>
+                                        <a href="single-product.html"><a href="single-product.html"><h5>Long Sleeve TShirt</h5></a></a>
+                                        <p>$150.00</p>
                                     </div>
                                 </div>
                             </div>
@@ -404,18 +411,18 @@
                         <div class="col-lg-4 col-sm-6">
                             <div class="single_category_product">
                                 <div class="single_category_img">
-                                    <a href="single-product.html">
-                                        <img src="img/category/category_7.png" alt="">
-                                    </a>
+                                    <img src="img/category/category_7.png" alt="">
                                     <div class="category_social_icon">
                                         <ul>
                                             <li><a href="#"><i class="ti-heart"></i></a></li>
-                                            <li><a href="#"><i class="ti-bag"></i></a></li>
+                                            <li>
+                                                <a href="" class="btn btn-default btn-rounded shopping-cart_icon" data-toggle="modal" data-target="#centralModalSuccess"><i class="ti-shopping-cart"></i></a>
+                                            </li>
                                         </ul>
                                     </div>
                                     <div class="category_product_text">
-                                        <a href="single-product.html"><h5>Guitar Classic Y900</h5></a>
-                                        <p>5.890.000 đ</p>
+                                        <a href="single-product.html"><h5>Long Sleeve TShirt</h5></a>
+                                        <p>$150.00</p>
                                     </div>
                                 </div>
                             </div>
@@ -423,18 +430,18 @@
                         <div class="col-lg-4 col-sm-6">
                             <div class="single_category_product">
                                 <div class="single_category_img">
-                                    <a href="single-product.html">
-                                        <img src="img/category/category_8.png" alt="">
-                                    </a>
+                                    <img src="img/category/category_8.png" alt="">
                                     <div class="category_social_icon">
                                         <ul>
                                             <li><a href="#"><i class="ti-heart"></i></a></li>
-                                            <li><a href="#"><i class="ti-bag"></i></a></li>
+                                            <li>
+                                                <a href="" class="btn btn-default btn-rounded shopping-cart_icon" data-toggle="modal" data-target="#centralModalSuccess"><i class="ti-shopping-cart"></i></a>
+                                            </li>
                                         </ul>
                                     </div>
                                     <div class="category_product_text">
-                                        <a href="single-product.html"><h5>Tuner lên dây đàn guitar T320</h5></a>
-                                        <p>599.000 đ</p>
+                                        <a href="single-product.html"><h5>Long Sleeve TShirt</h5></a>
+                                        <p>$150.00</p>
                                     </div>
                                 </div>
                             </div>
@@ -442,18 +449,18 @@
                         <div class="col-lg-4 col-sm-6">
                             <div class="single_category_product">
                                 <div class="single_category_img">
-                                    <a href="single-product.html">
-                                        <img src="img/category/category_9.png" alt="">
-                                    </a>
+                                    <img src="img/category/category_9.png" alt="">
                                     <div class="category_social_icon">
                                         <ul>
                                             <li><a href="#"><i class="ti-heart"></i></a></li>
-                                            <li><a href="#"><i class="ti-bag"></i></a></li>
+                                            <li>
+                                                <a href="" class="btn btn-default btn-rounded shopping-cart_icon" data-toggle="modal" data-target="#centralModalSuccess"><i class="ti-shopping-cart"></i></a>
+                                            </li>
                                         </ul>
                                     </div>
                                     <div class="category_product_text">
-                                        <a href="single-product.html"><h5>Tuner lên dây đàn guitar T260</h5></a>
-                                        <p>380.000 đ</p>
+                                        <a href="single-product.html"><h5>Long Sleeve TShirt</h5></a>
+                                        <p>$150.00</p>
                                     </div>
                                 </div>
                             </div>
@@ -461,18 +468,18 @@
                         <div class="col-lg-4 col-sm-6">
                             <div class="single_category_product">
                                 <div class="single_category_img">
-                                    <a href="single-product.html">
-                                        <img src="img/category/category_10.png" alt="">
-                                    </a>
+                                    <img src="img/category/category_10.png" alt="">
                                     <div class="category_social_icon">
                                         <ul>
                                             <li><a href="#"><i class="ti-heart"></i></a></li>
-                                            <li><a href="#"><i class="ti-bag"></i></a></li>
+                                            <li>
+                                                <a href="" class="btn btn-default btn-rounded shopping-cart_icon" data-toggle="modal" data-target="#centralModalSuccess"><i class="ti-shopping-cart"></i></a>
+                                            </li>
                                         </ul>
                                     </div>
                                     <div class="category_product_text">
-                                        <a href="single-product.html"><h5>Dàn trống Yamaha YM680</h5></a>
-                                        <p>268.899.000 đ</p>
+                                        <a href="single-product.html"><h5>Long Sleeve TShirt</h5></a>
+                                        <p>$150.00</p>
                                     </div>
                                 </div>
                             </div>
@@ -480,18 +487,18 @@
                         <div class="col-lg-4 col-sm-6">
                             <div class="single_category_product">
                                 <div class="single_category_img">
-                                    <a href="single-product.html">
-                                        <img src="img/category/category_11.png" alt="">
-                                    </a>
+                                    <img src="img/category/category_11.png" alt="">
                                     <div class="category_social_icon">
                                         <ul>
                                             <li><a href="#"><i class="ti-heart"></i></a></li>
-                                            <li><a href="#"><i class="ti-bag"></i></a></li>
+                                            <li>
+                                                <a href="" class="btn btn-default btn-rounded shopping-cart_icon" data-toggle="modal" data-target="#centralModalSuccess"><i class="ti-shopping-cart"></i></a>
+                                            </li>
                                         </ul>
                                     </div>
                                     <div class="category_product_text">
-                                        <a href="single-product.html"><h5>Capo Guitar C80</h5></a>
-                                        <p>380.000 đ</p>
+                                        <a href="single-product.html"><h5>Long Sleeve TShirt</h5></a>
+                                        <p>$150.00</p>
                                     </div>
                                 </div>
                             </div>
@@ -499,24 +506,24 @@
                         <div class="col-lg-4 col-sm-6">
                             <div class="single_category_product">
                                 <div class="single_category_img">
-                                    <a href="single-product.html">
-                                        <img src="img/category/category_12.png" alt="">
-                                    </a>
+                                    <img src="img/category/category_12.png" alt="">
                                     <div class="category_social_icon">
                                         <ul>
                                             <li><a href="#"><i class="ti-heart"></i></a></li>
-                                            <li><a href="#"><i class="ti-bag"></i></a></li>
+                                            <li>
+                                                <a href="" class="btn btn-default btn-rounded shopping-cart_icon" data-toggle="modal" data-target="#centralModalSuccess"><i class="ti-shopping-cart"></i></a>
+                                            </li>
                                         </ul>
                                     </div>
                                     <div class="category_product_text">
-                                        <a href="single-product.html"><h5>Capo Guitar Z900</h5></a>
-                                        <p>699.000 đ</p>
+                                        <a href="single-product.html"><h5>Long Sleeve TShirt</h5></a>
+                                        <p>$150.00</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-12 text-center">
-                            <a href="#" class="btn_2">Thêm mặt hàng</a>
+                            <a href="#" class="btn_2">More Items</a>
                         </div>
                     </div>
                 </div>
@@ -561,6 +568,74 @@
         </div>
     </section>
     <!-- highlights end -->
+
+    <!-- subscribe_area part start-->
+    <section class="instagram_photo">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="instagram_photo_iner">
+                        <div class="single_instgram_photo">
+                            <img src="img/instagram/team-KimThi.jpg" alt="">
+                            <a href="#"><i class="ti-instagram"></i></a>
+                        </div>
+                        <div class="single_instgram_photo">
+                            <img src="img/instagram/team-DinhHieu.jpg" alt="">
+                            <a href="#"><i class="ti-instagram"></i></a>
+                        </div>
+                        <div class="single_instgram_photo">
+                            <img src="img/instagram/team-NguyenThao.jpg" alt="">
+                            <a href="#"><i class="ti-instagram"></i></a>
+                        </div>
+                        <div class="single_instgram_photo">
+                            <img src="img/instagram/team-DoanLuong.jpg" alt="">
+                            <a href="#"><i class="ti-instagram"></i></a>
+                        </div>
+                        <div class="single_instgram_photo">
+                            <img src="img/instagram/team-ThanhTu.jpg" alt="">
+                            <a href="#"><i class="ti-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--::subscribe_area part end::-->
+    <!-- Central Modal Medium Success  start-->
+   <!-- <div class="modal fade"  style="z-index:10000 !important;"id="centralModalSuccess"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog modal-notify modal-success" role="document">
+            &lt;!&ndash;Content&ndash;&gt;
+            <div class="modal-content">
+                &lt;!&ndash;Header&ndash;&gt;
+                <div class="modal-header">
+                    <p class="heading lead">Modal Success</p>
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="white-text">&times;</span>
+                    </button>
+                </div>
+
+                &lt;!&ndash;Body&ndash;&gt;
+                <div class="modal-body">
+                    <div class="text-center">
+                        <i class="fas fa-check fa-4x mb-3 animated rotateIn"></i>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit iusto nulla aperiam
+                            blanditiis ad consequatur in dolores culpa, dignissimos, eius non possimus fugiat.
+                            Esse ratione fuga, enim, ab officiis totam.</p>
+                    </div>
+                </div>
+
+                &lt;!&ndash;Footer&ndash;&gt;
+                <div class="modal-footer justify-content-center">
+                    <a type="button" class="btn btn-success">Get it now <i class="far fa-gem ml-1 white-text"></i></a>
+                    <a type="button" class="btn btn-outline-success waves-effect" data-dismiss="modal">No, thanks</a>
+                </div>
+            </div>
+            &lt;!&ndash;/.Content&ndash;&gt;
+        </div>
+    </div>
+-->    <!-- Central Modal Medium Success end -->
 
     <!--::footer_part start::-->
     <footer class="footer_part">
@@ -661,6 +736,8 @@
     <script src="js/mail-script.js"></script>
     <!-- custom js -->
     <script src="js/custom.js"></script>
+    <!--add item to cart-->
+    <script src ="js/add-item-to-cart.js"></script>
 </body>
 
 </html>

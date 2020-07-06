@@ -252,7 +252,7 @@
   }
 })();
 
-inputNumber($('.input-number'));
+inputNumber($('input-number'));
 
 
 

@@ -2,7 +2,7 @@
 .banner_part{
     position: relative;
     background-color: #dde5e8;
-    @include background ('../img/banner_img.png');
+    @include background ('./img/procta_bgduct/Image-BG/BG-header.jpg');
     .single_banner_slider{
         .banner_text{
             display: table;
@@ -21,7 +21,6 @@
             h5{
                 font-size: 24px;
                 letter-spacing: 2px;
-                font-family: 'Dancing Script', cursive;
                 @media #{$tab}{
                     font-size: 18px;
                  }
@@ -32,7 +31,6 @@
                 font-weight: 700;
                 line-height: 110px;
                 margin: 17px 0 49px;
-                font-family: 'Dancing Script', cursive;
                 @media #{$small_mobile}{
                     font-size: 35px;
                     margin-bottom: 15px;
